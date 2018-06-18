@@ -17,6 +17,8 @@
 		60B7B57920D767D7003E582C /* TestChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7B57820D767D7003E582C /* TestChatTests.swift */; };
 		60B7B58420D767D7003E582C /* TestChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7B58320D767D7003E582C /* TestChatUITests.swift */; };
 		60B7B59220D76A0F003E582C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60B7B59120D76A0F003E582C /* GoogleService-Info.plist */; };
+		60B7B59420D76CC9003E582C /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7B59320D76CC9003E582C /* SignupViewController.swift */; };
+		60B7B59620D76CD4003E582C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7B59520D76CD4003E582C /* LoginViewController.swift */; };
 		BD71D6946E6E94F938649E3A /* Pods_TestChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58490676C4D6CA7A696CBA12 /* Pods_TestChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		60B7B58320D767D7003E582C /* TestChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChatUITests.swift; sourceTree = "<group>"; };
 		60B7B58520D767D7003E582C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60B7B59120D76A0F003E582C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60B7B59320D76CC9003E582C /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		60B7B59520D76CD4003E582C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		875A0046D62E821F2279FBBB /* Pods_TestChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87FB4B0A8EADFE1B2841C86 /* Pods-TestChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestChat/Pods-TestChat.release.xcconfig"; sourceTree = "<group>"; };
 		BEBCEB19ED7C6F0286C2EBC1 /* Pods_TestChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +132,8 @@
 			children = (
 				60B7B56320D767D5003E582C /* AppDelegate.swift */,
 				60B7B56520D767D5003E582C /* ViewController.swift */,
+				60B7B59320D76CC9003E582C /* SignupViewController.swift */,
+				60B7B59520D76CD4003E582C /* LoginViewController.swift */,
 				60B7B56720D767D5003E582C /* Main.storyboard */,
 				60B7B56A20D767D7003E582C /* Assets.xcassets */,
 				60B7B56C20D767D7003E582C /* LaunchScreen.storyboard */,
@@ -385,6 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B7B59620D76CD4003E582C /* LoginViewController.swift in Sources */,
+				60B7B59420D76CC9003E582C /* SignupViewController.swift in Sources */,
 				60B7B56620D767D5003E582C /* ViewController.swift in Sources */,
 				60B7B56420D767D5003E582C /* AppDelegate.swift in Sources */,
 			);
